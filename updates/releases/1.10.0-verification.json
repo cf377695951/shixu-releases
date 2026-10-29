@@ -1,0 +1,58 @@
+{
+  "version": "1.10.0",
+  "backend_tests_passed": 289,
+  "desktop_tests_passed": 64,
+  "frontend_test_files_passed": 4,
+  "frontend_ui_checks_passed": 33,
+  "official_real_body_fixtures": [
+    "BLS CPI",
+    "BLS PPI",
+    "BEA GDP",
+    "BEA PCE"
+  ],
+  "source_fetch_limitations": {
+    "NBS_direct": "Current validation environment returned HTTP503; failure kept explicit, not faked success."
+  },
+  "official_date_period_and_basis_verified": true,
+  "browser_checks": {
+    "pce_four_actual_values_visible": true,
+    "concise_report_period": true,
+    "official_source_link_visible": true,
+    "paid_token_prompt_removed": true,
+    "duplicate_source_paragraphs_grouped": true,
+    "cache_is_labeled": true
+  },
+  "public_upgrade_e2e": {
+    "version": "1.10.0",
+    "old_v18_update_engine_verified": true,
+    "real_rsa_signature_verified": true,
+    "tampered_manifest_rejected": true,
+    "failed_activation_preserves_config": true,
+    "activation_requires_no_git_or_login": true,
+    "application_upgrade_to_1_10": true,
+    "packaged_restart_health": "1.10.0",
+    "private_data_bytes_preserved": true,
+    "versioned_backup_present": true,
+    "owner_channel_protected": true,
+    "full_friend_installer_matches_signed_package": true,
+    "windows_native_actions_verified": false,
+    "public_package_sha256": "cbe5a83bd74144a9f0dc88c9a4684b905bd163c926e03bbecbd3ed75813022b2"
+  },
+  "windows_native_behavior_directly_verified": false,
+  "public_package": {
+    "path": "app-updates/event-calendar/releases/1.10.0.zip",
+    "size": 617298,
+    "sha256": "cbe5a83bd74144a9f0dc88c9a4684b905bd163c926e03bbecbd3ed75813022b2",
+    "url": "https://raw.githubusercontent.com/cf377695951/shixu-releases/main/updates/releases/1.10.0.zip"
+  },
+  "friend_packages": {
+    "Shixu_Windows_1.10_Friends.zip": {
+      "size": 24691695,
+      "sha256": "a3ab0c017aac11707def61fe2aad6aab872d6e4cf726812076023baf0c353927"
+    },
+    "Shixu_Friends_Enable_Updates.zip": {
+      "size": 3885,
+      "sha256": "798cee13f0fb04ee963458b4c1d90b7178158b13b29c8dcc4a0183077c09b381"
+    }
+  }
+}

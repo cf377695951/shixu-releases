@@ -1,0 +1,18 @@
+{
+  "schema": 1,
+  "enabled": true,
+  "transport": "https",
+  "manifest_url": "https://raw.githubusercontent.com/cf377695951/shixu-releases/main/updates/stable.json",
+  "trusted_https_origins": [
+    "https://raw.githubusercontent.com"
+  ],
+  "public_keys": {
+    "shixu-public-20261029": {
+      "n": "9cd12338ec818d18261e54703c99da6477a30a065324eb1749d241dd00ea14193470c605c909b3ddc099d53ed9f3d6b957f27ba72e2ac6b84c815d5d0c83ef02ea7670762fda72fe82940b090b4b3b925363c24d74e2b655b7b416245f78c576390b8be431c7b9bcea802d4b1d562d75dc8613745277c56735c48f9b981ca95b83c35e3b032cd3ac6b623b9b86d4ea84f30cb9d0cb6768cf0b3b4899c286dd6fd6325197518bb501af56b28f2aecf107766515735f9e8e4ccda3248011381a7289361dd97ccafaabd16c4893d85b92129649dac8b93c293a994f45a9833f9d1238783d6e09b3bb96a2822671fcb61261bdac30a7812c7e6ceffa0b45260b7333ef09ddb18fa58cc20efe1e09ebe0f904b00140d5d77eab1d36cf9db04b157a33fdf2681b85da4ba069425f943d1b48b8d10031421b66ac26bc9c6810e63501cc13059e83da5d85c8b5378fa7a566665de80b78d5dedf2abdabd0e89871b600f6a691597a517da6e8410464406725ee0334a99217944048adc0376ea331e38925",
+      "e": 65537
+    }
+  },
+  "check_interval_seconds": 1800,
+  "channel_name": "朋友公开发行通道",
+  "note": "无需GitHub账户、Git或付费Token。HTTPS固定来源，RSA-SHA256签名及文件摘要校验；程序更新与公开金融数据联网刷新独立运行。"
+}

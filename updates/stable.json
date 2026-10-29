@@ -1,0 +1,685 @@
+{
+  "schema": 1,
+  "app": "willance-event-calendar",
+  "version": "1.10.0",
+  "integrity": "rsa_sha256",
+  "package": {
+    "path": "app-updates/event-calendar/releases/1.10.0.zip",
+    "size": 617298,
+    "sha256": "cbe5a83bd74144a9f0dc88c9a4684b905bd163c926e03bbecbd3ed75813022b2",
+    "url": "https://raw.githubusercontent.com/cf377695951/shixu-releases/main/updates/releases/1.10.0.zip"
+  },
+  "files": {
+    "DATA_ACCURACY.md": {
+      "size": 16373,
+      "sha256": "22644a075289854088aec8e6c0db6e067cbc99cc2de9c777f09bef54b9fce2f1"
+    },
+    "INSTALL_WINDOWS.cmd": {
+      "size": 50,
+      "sha256": "5876deddbdff53b472b98e72cd92baf2bbf65be5ab798b572d3757355d03a3a8"
+    },
+    "INSTALL_WINDOWS.ps1": {
+      "size": 2355,
+      "sha256": "1828ae53971375f350245aedbac156add216eeca557a14321c70b8eb153ce106"
+    },
+    "README_WINDOWS.md": {
+      "size": 6649,
+      "sha256": "87f467a7fd37516db90c009e71f100197c324dde34db74741af3fa713207f9fe"
+    },
+    "START_WINDOWS.cmd": {
+      "size": 864,
+      "sha256": "df14a8dfdde2e8cf2ece10644c7e1cf8857b7c664c24a721c913ee25fe7f54f1"
+    },
+    "additional_sources.py": {
+      "size": 14303,
+      "sha256": "f9b89df00794813a424d4d44aa15f1325f83d47821686621e6b6d6c3b0f331c1"
+    },
+    "app.py": {
+      "size": 259075,
+      "sha256": "d320a7440f911713e690214dd329105b1e3ac714c0df52e37364c97edbde5eca"
+    },
+    "branding/almanac-v18.json": {
+      "size": 42852,
+      "sha256": "1e12e526f9368906b3bba6bc8e94b55d8de07cc39818f62bf8384a560cdb5693"
+    },
+    "branding/catalog-extra-v15.json": {
+      "size": 275088,
+      "sha256": "4af1eea9aef0d3a348866d3945ffa790dd9d312ba24ba7c35285964ff3b78b81"
+    },
+    "branding/catalog-extra-v18.json": {
+      "size": 4677,
+      "sha256": "d1a8cab62e3bd7f0d46deff7bc910f3a8d6ed08e7182289a1668140127cdcf23"
+    },
+    "branding/coverage-v15.json": {
+      "size": 2129,
+      "sha256": "c57923bcc355b0f1dfab97c3d0ac2a138c747527c919b03128d39e7730dc5561"
+    },
+    "branding/economic-snapshot-v110.json": {
+      "size": 15367,
+      "sha256": "5151244710d51766698d0e76153c202665d31202e0921ae565b530da424395fd"
+    },
+    "branding/economic-snapshot-v18.json": {
+      "size": 7196,
+      "sha256": "2e300a4be3297a516e900c56c7a2d36213d365bcdd23e51c61c507f7a4aea9ac"
+    },
+    "branding/manifest-v15.json": {
+      "size": 109546,
+      "sha256": "84d272366c8012048ae1b552c2e4195c4750a7872302d1f68a65b608a0492394"
+    },
+    "branding/manifest-v18.json": {
+      "size": 8856,
+      "sha256": "fde2c36c7657edd604dc5a60a2d3ecf26ea80927c9fa6d0f75065d9be7603d10"
+    },
+    "branding/shixu-brand.json": {
+      "size": 1218,
+      "sha256": "29d8fd745dd04ee3170ab5e2ebb4d0204ab4db0fab78bde041f2453e85c457de"
+    },
+    "branding/shixu-icon.png": {
+      "size": 54211,
+      "sha256": "17b14b68595a0330db7caea283e9fd303f10ea4d375c7c52bc6652acfe142aae"
+    },
+    "branding/shixu.ico": {
+      "size": 89293,
+      "sha256": "6ca309073770681bb1b09ae1011e04a4ae2376a8eae1c8afa0cdbaaf400415c6"
+    },
+    "desktop/__init__.py": {
+      "size": 75,
+      "sha256": "92e368a4a60575a925752b97fb107255c78b77575ff056467c65ffa7d5a1cd82"
+    },
+    "desktop/frozen_entry.py": {
+      "size": 295,
+      "sha256": "61685f070bb4bbfff72860a12c93aab91ac0fbc8cd8314d28af71c1ac1bbb21a"
+    },
+    "desktop/install.py": {
+      "size": 11827,
+      "sha256": "6e0a0877f34ab7f4205c73422244d2c4f078b7a22b325aa78f218b4ca90d464e"
+    },
+    "desktop/launch_hidden.py": {
+      "size": 724,
+      "sha256": "781b94767bcef5102ed14eb14995ea77ddb366846b2eea1f901844332cfe3533"
+    },
+    "desktop/launcher.py": {
+      "size": 30152,
+      "sha256": "88c38d4d72e37d649e57e936aa34ec90045c52853503a1fe1fda494fd4d3429d"
+    },
+    "desktop/update_config.json": {
+      "size": 1358,
+      "sha256": "46ab192f75be58496f89e547e7c2af3acf6bab8ef54457825c32fe196f8a7f39"
+    },
+    "desktop/updater.py": {
+      "size": 39562,
+      "sha256": "9cb82ab1e4356e3afbefc5df58b0e491d01b6fc8c49851cb4195fcf637edcc6d"
+    },
+    "hk_earnings.py": {
+      "size": 12616,
+      "sha256": "c9acf8e7265fb58ffb135f51a5bab7e0ee2a51a40850108799fe1d9763808ee6"
+    },
+    "ipo.py": {
+      "size": 14335,
+      "sha256": "7336896b83ce1a35c6ba8950c01e1c470752a45ffc9d0742b1f3718dcc7a33ef"
+    },
+    "ir_overrides.json": {
+      "size": 2190,
+      "sha256": "cea2535b93aaeacc2c4abf81ec3f57f62df702da6e110f0b9d10e1680354f205"
+    },
+    "ir_policy.py": {
+      "size": 2322,
+      "sha256": "a4c29675d37aa38f4ba8ce62d7ba11f52f01f8cbdf4ec104dc83dad3667dbb2f"
+    },
+    "logos.py": {
+      "size": 6230,
+      "sha256": "4aad8fdbb6b187cf77ef0f95fd541087d1a62966ab4a0ae4dcd3a7e7cc483dd5"
+    },
+    "providers.py": {
+      "size": 44682,
+      "sha256": "8420bc40652a9daf48c911fcee9d1eca8d2c170e7df22ee831dcbd631788fdc6"
+    },
+    "quote_service.py": {
+      "size": 8468,
+      "sha256": "6352ab8a4e122f28e2036349b4ae28c1d6967f8c08c56ab554184c377988ec15"
+    },
+    "quotes.py": {
+      "size": 14295,
+      "sha256": "c05cd476095006d2fa2c21a4a9f937d68c78d83f0ab8818214d5a583ba041efb"
+    },
+    "retention_policy.py": {
+      "size": 2344,
+      "sha256": "488c916506e1d326cf40ce8630cbf822fd62c54aaab7c6d793f0f947594674c5"
+    },
+    "seed_verified.json": {
+      "size": 119349,
+      "sha256": "d1fe337e24cc04e4ae7585bd39a4fc7b9635b4924b74b1f944bae587348a02c7"
+    },
+    "selection_policy.py": {
+      "size": 10327,
+      "sha256": "fed074f66343659fa43fbf8937eda0c8d3c4406ddd9dd6ef97c9abcd299a32be"
+    },
+    "timing_policy.py": {
+      "size": 20796,
+      "sha256": "82eafaccf6a62ddad776343179613d1b627b11c18914cf8e2739c23e2dbe63fb"
+    },
+    "web/app.js": {
+      "size": 135027,
+      "sha256": "03bc3952532326e70977799c2d5627b3b98f160466590b992eed8da065e8b12e"
+    },
+    "web/index.html": {
+      "size": 20434,
+      "sha256": "5cc8783916e52223b676dbb1f2f4e81ca952b5a4def9d16c784218d5a1dbbf02"
+    },
+    "web/perf_monitor.js": {
+      "size": 7834,
+      "sha256": "4d01e5c29e4c2fbf5a4867dcf9bf0886e6d06be79560d55b69b91f051c05368b"
+    },
+    "web/style.css": {
+      "size": 79588,
+      "sha256": "7b86dd87be5a3be47b74050e2cd08813d2474cf1f3efef4e01c1106a996bc409"
+    },
+    "branding/update-base-v15.json": {
+      "size": 14177,
+      "sha256": "5bb2cfe5a7cf5ce134ccd9a032890a92730ea0a57d610342875d0575cbc03157"
+    }
+  },
+  "notes": "朋友版自动更新启用；免费官方数据、后台取数与来源核验改进。",
+  "update_kind": "application_delta",
+  "minimum_version": "1.4.0",
+  "base_files": {
+    "branding/aapl.ico": {
+      "size": 22382,
+      "sha256": "5493c61cf725cf3a1d63cd9d07de75b0d6faa5564e772f7d0a6074f341442938"
+    },
+    "branding/amzn.ico": {
+      "size": 15086,
+      "sha256": "5866636f18764cd66366ae6eb682e972b4eae1771512cd76b304b6dd3c0f1d2d"
+    },
+    "branding/catalog-assets.json": {
+      "size": 13959061,
+      "sha256": "c7a43b64f80c88ce51c34503235ccc85bb09cce8999adc402e938f15b9d726cb"
+    },
+    "branding/china-abc.ico": {
+      "size": 1150,
+      "sha256": "ee4cf23632b38cd3ba6d10b8e21e59aa3d5801ceec5ead1f34ca414189b0c150"
+    },
+    "branding/china-alibaba.png": {
+      "size": 8007,
+      "sha256": "341fbd758ee28cdfdf0d7fbeebfd5bc20d62e195db07d9e2fc82975d76478fa2"
+    },
+    "branding/china-boc.ico": {
+      "size": 1150,
+      "sha256": "d943ce00fb62c37509cbb07959cb941b6f85f9e6bfe7ce2f478c5317ed220467"
+    },
+    "branding/china-byd.png": {
+      "size": 1727,
+      "sha256": "b233c8b762273c85b5f500790c4b2921fe64ea56999234bf3465d37a2aef13a7"
+    },
+    "branding/china-catl.png": {
+      "size": 1155,
+      "sha256": "87310bae17d2353c5f9c3f301fda30c7217e8db95808f95855b5fd92f5f5fab3"
+    },
+    "branding/china-ccb.ico": {
+      "size": 1150,
+      "sha256": "771e2420f5d2fbe5d09fba31bb29021821e02c62a500893ef361fec2bf9969d5"
+    },
+    "branding/china-cib.png": {
+      "size": 3002,
+      "sha256": "e96371b087a8a2b9b525d07fdec395f1b0ba2968a401b1f66329ec220a3b3230"
+    },
+    "branding/china-cmb.ico": {
+      "size": 17542,
+      "sha256": "8d60fe71baaa288eaab43c76caf2354c475040b38d3858f99a0cb3a17ea6207b"
+    },
+    "branding/china-cpic.ico": {
+      "size": 4286,
+      "sha256": "e50f7c6d94030feaf012f430426bd22241f63e078b3e221be0d648aefddcd034"
+    },
+    "branding/china-fii.png": {
+      "size": 1334,
+      "sha256": "a93ea4b5e5b00de4ccd410529937b3e83f6ef8219305be55872f30df1492d291"
+    },
+    "branding/china-gigadevice.png": {
+      "size": 5684,
+      "sha256": "8ef9cb5480275e8eda09314f63f43696324667f72a35256dfaa4aa26891fb8ce"
+    },
+    "branding/china-hengrui.ico": {
+      "size": 9662,
+      "sha256": "4affda95a0826b36977dbf40d3bbdf6826c4670faeb2c09110911f7304e8e403"
+    },
+    "branding/china-hengtong.png": {
+      "size": 826,
+      "sha256": "2a1d42d23f9b2bb2d6287b6ff82a0aa40d0fd61525cfe3fa4ac0042bc6c69b9a"
+    },
+    "branding/china-hsbc.png": {
+      "size": 4754,
+      "sha256": "e326fc1e0be7ac7178e594a446e9a7d6c4ee510153b10af24fc5afd12c6d12bb"
+    },
+    "branding/china-icbc.png": {
+      "size": 2034,
+      "sha256": "a2382fa766fd421dbee5c8a379bcd978b08a4cec0a40724ed4ec5e7ac5ff48b5"
+    },
+    "branding/china-innolight.png": {
+      "size": 881,
+      "sha256": "38af3a087d60916f80920283434f640716cf7502faf9f32098ecc5dd85fb852e"
+    },
+    "branding/china-longi.ico": {
+      "size": 1150,
+      "sha256": "782136ce2f5dc01c53fe23a752e564211f035faa6570c33edb333502c6973ee6"
+    },
+    "branding/china-luxshare.png": {
+      "size": 1702,
+      "sha256": "a3963febe8dd2a96f0ee4b53c970958a76b0f387ddcc670bd7fd7e56a8f33a81"
+    },
+    "branding/china-meituan.ico": {
+      "size": 15086,
+      "sha256": "a6f4dd99edf8c49563be4c90ed0b509adb6b890d1a3c35caaa6d799a21c022de"
+    },
+    "branding/china-midea.png": {
+      "size": 5518,
+      "sha256": "1b1c42f8c0fcd9e2b701bc3332c0856a6f6b0cf54c53ca234e12a4344fa9701f"
+    },
+    "branding/china-moutai.png": {
+      "size": 10930,
+      "sha256": "4aef8b45a3b897528589a57cc8ec9421ea25e6b2c42d92cc2b73ac8b7e26fef7"
+    },
+    "branding/china-muyuan.png": {
+      "size": 1912,
+      "sha256": "2ade369c9dcf4ae1196b95a684f4dd108f5d9da7260d5b0bf81daeb902f49c4c"
+    },
+    "branding/china-nbbank.ico": {
+      "size": 1150,
+      "sha256": "39a631568833885457e48c05af3b9f5eaad87a63c0181f8c38d99d13bfa844f9"
+    },
+    "branding/china-petrochina.ico": {
+      "size": 1150,
+      "sha256": "10215c9817fb671d4df1d0a388a7f8f757b07842ec4a0477f7eebe9a2510e738"
+    },
+    "branding/china-pingan.png": {
+      "size": 9375,
+      "sha256": "bb9082bcce55bd7d0935ee6c261e0dec0ba7ea8c9403024f58deefda43ab0b92"
+    },
+    "branding/china-scc.ico": {
+      "size": 16958,
+      "sha256": "c958b79ce7cadd02b642e7a3d2a02fb6d1613dcba6b6e5bdf228c14df6ac7999"
+    },
+    "branding/china-semcorp.png": {
+      "size": 3911,
+      "sha256": "7f8f13f78a850d18a31d9475246ad28c234be2fab08d6a329f3da6e08bafb36b"
+    },
+    "branding/china-sinopec.png": {
+      "size": 9419,
+      "sha256": "af244a0a273a2322b4c72dc766f6f536c94a1013a0a6b3d5555af4f2e4688f0f"
+    },
+    "branding/china-tencent.png": {
+      "size": 1798,
+      "sha256": "a4f9bdeedcbc3851f15a234da08ed2bd34e84f384e597e59175677601106c924"
+    },
+    "branding/china-tfc.ico": {
+      "size": 16958,
+      "sha256": "ab84c2431bf2cb5d85ad5770bb7d72cf853bd1d2e25b44d054cf2eac4b11192e"
+    },
+    "branding/china-tonfy.png": {
+      "size": 5477,
+      "sha256": "a41799311197a25472b956695860cf84dd6f48433f3ea3c4e5ccde5c836a18a9"
+    },
+    "branding/china-unison.png": {
+      "size": 2217,
+      "sha256": "1d0552dc492c01220cbadf579c549b038bd0bbade9bb141e13edbe764b1de228"
+    },
+    "branding/china-wus.png": {
+      "size": 49258,
+      "sha256": "b59be688ccc27d353772714d688e12b8db568ab75880a075a388d0a068b5051b"
+    },
+    "branding/china-xiaomi.png": {
+      "size": 2665,
+      "sha256": "4e1f832af14ad8140676c3dad223f9906c13c6c0c6180cd951cfa6ed2cf41293"
+    },
+    "branding/china-yoke.png": {
+      "size": 5862,
+      "sha256": "eb0a133285a25b045b02465c19f9d7b4ce94b8a8574331a0f23d4f5c505d447c"
+    },
+    "branding/china-zte.png": {
+      "size": 277,
+      "sha256": "9c1872f02434eeec536af2aeb83eaa696aa15748b87c7b218d77d635b2fe8a64"
+    },
+    "branding/coverage-v13.json": {
+      "size": 35022,
+      "sha256": "3861d021ae2017e48954a86d9a01f779476ee99689c433dcec843377460c2821"
+    },
+    "branding/coverage-v14.json": {
+      "size": 31645,
+      "sha256": "599f0e31ecd9ece032176e6d7541c8375a02d4f4f35b29affd0794e4529d8d80"
+    },
+    "branding/gaishi.png": {
+      "size": 1392,
+      "sha256": "d29c948dae0b71c819f46e4a9867d6f21b27b7f24427465b3a8f13ffa937c95d"
+    },
+    "branding/goog.ico": {
+      "size": 5430,
+      "sha256": "6da5620880159634213e197fafca1dde0272153be3e4590818533fab8d040770"
+    },
+    "branding/manifest.json": {
+      "size": 5089202,
+      "sha256": "9d3a6432d5ed4f22a46ae50657c68229a918b1548f3b5310d776f7a3f0cb9992"
+    },
+    "branding/meta.ico": {
+      "size": 5558,
+      "sha256": "b96d739c3a8ac4ef0b34212c8a2b7f23dcb7b039e0dd14ef170d8e9232972bf7"
+    },
+    "branding/msft.svg": {
+      "size": 343,
+      "sha256": "929f48f88c8ca7f3f5d294be47ec4caf51acc28ac25340c19a903125d7ecd84a"
+    },
+    "branding/nvda.ico": {
+      "size": 25214,
+      "sha256": "bedcb14e0470ff8abe26405a630e9604ac4fa581b385a7cfb00420c22f541b6e"
+    },
+    "branding/official-icons-v14.json": {
+      "size": 54705,
+      "sha256": "372fcb14839f0a846fdf4c70d1d439284650b45b2730836c1e4566de46a26419"
+    },
+    "branding/tsla.ico": {
+      "size": 5430,
+      "sha256": "aba1b9c85aa6ce15759adcdf3aff2b1001ea26d70156ec93e5b9179bd870c2b4"
+    },
+    "branding/us-abbv.png": {
+      "size": 8395,
+      "sha256": "7445f030bded301b1cf6d81f70dec066785fff9118b562e5be34fd7c982c819b"
+    },
+    "branding/us-adp.png": {
+      "size": 6865,
+      "sha256": "e3373f3be14bfa65cbfe84be98d9139da3bd04b2755748ff321d987dd5f3d501"
+    },
+    "branding/us-amd.png": {
+      "size": 3049,
+      "sha256": "d986b04fff239a2d1624fae62b53fb2397094a9d2608043a22c15b0334b35612"
+    },
+    "branding/us-aph.png": {
+      "size": 2257,
+      "sha256": "8528893dd5d9872e0a3152b182fa5736ab1d72f550086b13f3542c2f4bbce64f"
+    },
+    "branding/us-avgo.png": {
+      "size": 9151,
+      "sha256": "daa413f6c0b01e533838d5122f820fa18e92d3e6d9759a339c861d2d179c717d"
+    },
+    "branding/us-azn.png": {
+      "size": 8451,
+      "sha256": "db1e1001bc56794f648528f328964ee020c505bb53b67c837e4d6a6b7c1a7f94"
+    },
+    "branding/us-ba.png": {
+      "size": 7844,
+      "sha256": "f60e3f30abee4f428beab8da29301a15a5b60f8c2c956f12cfefe4c4e6753a6b"
+    },
+    "branding/us-bac.png": {
+      "size": 7134,
+      "sha256": "2975304713fe436b4e42a03c9074687a7d992fe400ff01d9796f88536b2204f5"
+    },
+    "branding/us-bbva.png": {
+      "size": 3833,
+      "sha256": "7a6f5ed4ae87649d7cf61f508a7e5a7d754af2e105a54fbe4e4efb5608073a16"
+    },
+    "branding/us-bmy.png": {
+      "size": 5218,
+      "sha256": "31e85f003a66f5e81b34261d62ca61f57acce9ddba9f88ab9393008c1dba5a70"
+    },
+    "branding/us-bp.png": {
+      "size": 8991,
+      "sha256": "6312d469e11e669d7d48b9c0a90aa7301d03ebd2898a38e91733e028a96c8be5"
+    },
+    "branding/us-bud.png": {
+      "size": 8934,
+      "sha256": "85ac1694debea3392ad7b2f17e98dfbc17b431aacc01a39e0a42fee64b0e7981"
+    },
+    "branding/us-cat.png": {
+      "size": 1531,
+      "sha256": "8cc27d7d20a69ae9f58cc0504843d2f351d940696e9fda6df7aad8aeae2deede"
+    },
+    "branding/us-cost.png": {
+      "size": 9392,
+      "sha256": "93f111b054acbfc873da0da892505f090cf5808805e04211bcb978070968f1bb"
+    },
+    "branding/us-crm.png": {
+      "size": 5406,
+      "sha256": "9e994c132b087b4a78c95e6b653a98d5f3bed66634623d7097e7c3019b8ce470"
+    },
+    "branding/us-csco.png": {
+      "size": 6442,
+      "sha256": "1ac8d5aea21714cd298aa8235277267e76e9b346a01b845b3092e452d5c2e06f"
+    },
+    "branding/us-cvx.png": {
+      "size": 4820,
+      "sha256": "9a42f70594847e52af5d1155122c20893ff85b9db39f7605fcb93eb47ffbf95c"
+    },
+    "branding/us-ecl.png": {
+      "size": 3697,
+      "sha256": "a2c5aea605e3ef1fcf958b8e31b277fdda77664eede61cb7c0723f3b68bf0b7f"
+    },
+    "branding/us-eqix.png": {
+      "size": 2952,
+      "sha256": "f4c38ee70a27691bc8f06de82624276b415804bb2ed63d4283d70984964472d6"
+    },
+    "branding/us-fcx.png": {
+      "size": 5754,
+      "sha256": "ffaf14f07e30c4f5706d1ed456f474cfd59728586e4ccaf0876a421e78372946"
+    },
+    "branding/us-ftnt.png": {
+      "size": 3953,
+      "sha256": "137060d868cee2494d352d75e9d75c80fe21a7a40f4a1ee51750bf3ccded7054"
+    },
+    "branding/us-gd.png": {
+      "size": 2443,
+      "sha256": "edad52b225b54a2f12ac971b9dbcad74fbed2e90dddfdc11e9879f4350a0b173"
+    },
+    "branding/us-gev.png": {
+      "size": 11678,
+      "sha256": "7aadad25ef3cb76ddc75355d7497a38cdd7c248c42dd49d5ac091e9839c2353c"
+    },
+    "branding/us-gild.png": {
+      "size": 4762,
+      "sha256": "0f2159882625525fa1b4452e4949a407fd64e0fafcefe847e37c6f144f5d1805"
+    },
+    "branding/us-glw.png": {
+      "size": 4285,
+      "sha256": "b49110dfde70612551c934d42b3bd6ddf1ebcaf0e00918d2470167fefff7396f"
+    },
+    "branding/us-gs.png": {
+      "size": 4621,
+      "sha256": "53b6c8e70d7d26dc83a476f061643841a6e51a74baa8e1dcb31134467e85c7fd"
+    },
+    "branding/us-gsk.png": {
+      "size": 7445,
+      "sha256": "dec006ab7b4c0f07ff0901b3364dc57ce9fde52254a76de122911a5c0a604fc2"
+    },
+    "branding/us-hca.png": {
+      "size": 9524,
+      "sha256": "0ca7ae9c1f677a9714d46d75ff165eadd32ebe557879b3ca84f5999588e1ca5b"
+    },
+    "branding/us-hood.png": {
+      "size": 4336,
+      "sha256": "095f36b8c013aad09378ef207796472cd10faa7f5259bf64ec0633ed04a52be1"
+    },
+    "branding/us-ibm.png": {
+      "size": 5943,
+      "sha256": "94a6a130862fc14916336df5f7c12f5f644a4463b27bc9d1f026671b24b65ac4"
+    },
+    "branding/us-ice.png": {
+      "size": 6096,
+      "sha256": "498913c11b7c7422c1ebe1c85e91fbe9a6f0cf6f1dd86ac48434f2099c54a6fb"
+    },
+    "branding/us-ing.png": {
+      "size": 9620,
+      "sha256": "0608775f04ecfa705b1ba8ca5ee5c8947a8db64e63e23ff80cc9c9f938adf32e"
+    },
+    "branding/us-intc.png": {
+      "size": 5388,
+      "sha256": "348b02abe9273f29ac28cf37b5b2b498a913c3e9149b4f3f82b801cd41723758"
+    },
+    "branding/us-jci.png": {
+      "size": 17376,
+      "sha256": "c95a386a1e2925e10ea262902059c8a4a2fa96ab11dba2c20e62d751da344b7b"
+    },
+    "branding/us-jnj.png": {
+      "size": 3432,
+      "sha256": "01a534caa211f55d7fdc3b0362580d19f5daf9e97ea7ca86dbec42bfcbcb1b97"
+    },
+    "branding/us-jpm.png": {
+      "size": 5808,
+      "sha256": "fa9d01db9ca9e4e1715735a390097661d32cf4d5523c47f14223dcefd5f254ea"
+    },
+    "branding/us-klac.png": {
+      "size": 2830,
+      "sha256": "46bff4b664eea34c89691269b7424cce8c4544619426ecba7d3771dffe2089ad"
+    },
+    "branding/us-ko.png": {
+      "size": 2257,
+      "sha256": "a76bee53e4c11bea2b39f49ab07daed51d5234765a923736c1a569d55d8b92cc"
+    },
+    "branding/us-lin.png": {
+      "size": 3868,
+      "sha256": "921c3a95b4d552a0154bd59db74b61929ac931afc964858ddd1ba8429ef7dd7c"
+    },
+    "branding/us-lly.png": {
+      "size": 7077,
+      "sha256": "196623a90cbd375e8e60800fdaaa47cb27bca7c758c50964a987e141f189e619"
+    },
+    "branding/us-ma.png": {
+      "size": 5013,
+      "sha256": "3f541954f887660496764d532449a3350c8346657fe3a23c8c49c21e076dcc97"
+    },
+    "branding/us-mcd.png": {
+      "size": 1895,
+      "sha256": "d277a8dca3879ba3ca64ee026a49e6625d3b2a59e1bdb45d712ff964fd311493"
+    },
+    "branding/us-mdlz.png": {
+      "size": 10573,
+      "sha256": "d46a108f433251bd08d88b79c2072ed14608cee13664d0aee1406161c9a5ca2d"
+    },
+    "branding/us-mo.png": {
+      "size": 5206,
+      "sha256": "d90f3e1d5a6fbdf13b35723ef15358894d97da3f2e5144246a3d24756d7b14a7"
+    },
+    "branding/us-mrk.png": {
+      "size": 6278,
+      "sha256": "242bf5ca5e4586e707e66145b1f4b26cb999995f1c68f23551d9047daaaa22e6"
+    },
+    "branding/us-ms.png": {
+      "size": 7550,
+      "sha256": "916c165c4834fdb799fb4a470712de6f7cfb1666aac230e547bfc90463b25d62"
+    },
+    "branding/us-nflx.png": {
+      "size": 3032,
+      "sha256": "5ffc2f8b5ce0ebf2147bc46cf78b22d1dc862305cbcbd771107cfdc61576645d"
+    },
+    "branding/us-now.png": {
+      "size": 4811,
+      "sha256": "45f32c62be6e5e9d7be075bf67efa5fbd3c70678daa3349047fbcab55adc7d3f"
+    },
+    "branding/us-nvs.png": {
+      "size": 9323,
+      "sha256": "833d0626e375a7af32ab84858bf258e3721802fc5b9ca856607f41fe9b0fddfb"
+    },
+    "branding/us-orcl.png": {
+      "size": 6029,
+      "sha256": "d2d4a8488d16b5540404450e7319af4f8fe72bee0a05ec9b79457ba065e86387"
+    },
+    "branding/us-pep.png": {
+      "size": 8477,
+      "sha256": "fdd2dbd1f6b0b0e28170fab61d1fd9076ea1315ef97a2518b1c52fc88df4e0b9"
+    },
+    "branding/us-pg.png": {
+      "size": 10501,
+      "sha256": "149b0b9bdd4b3ee081d4fb6db9ed4b590f376510efa1abf59fff4f025904c8d3"
+    },
+    "branding/us-psx.png": {
+      "size": 9692,
+      "sha256": "ff79c8ea44115be54c92cb73f07fb910f240491b4512d83c1b2921a99273d2ee"
+    },
+    "branding/us-regn.png": {
+      "size": 6938,
+      "sha256": "339ea452af94e97c46832180631923e39a5edf1165bcbd9118e0cf93d069ecff"
+    },
+    "branding/us-san.png": {
+      "size": 5521,
+      "sha256": "8b25c93c1d1f315e4aad665b5e0242cad78d636d012ae0866c69bc6c0148f908"
+    },
+    "branding/us-sbux.png": {
+      "size": 15782,
+      "sha256": "f1ccc276f34b22b611206884d53d0ca62661ae2e0ef3a503c616b81dacd19a8e"
+    },
+    "branding/us-shel.png": {
+      "size": 9794,
+      "sha256": "f820373af8ad52bcbce60dd667bfc70720703891b13147ada12b637bb05c8205"
+    },
+    "branding/us-shw.png": {
+      "size": 7532,
+      "sha256": "44323e0ffd8c18dc4b08f2467af4639cbaeb8e93f398163b5871f80c1f796731"
+    },
+    "branding/us-sndk.png": {
+      "size": 3366,
+      "sha256": "6c31d45a6bc73571a89e2a6010356eac770690b8bb7d89461f192d9f6ece7383"
+    },
+    "branding/us-sny.png": {
+      "size": 7159,
+      "sha256": "086ba2c9193d8fdd87c55764e607a084b4c4e4d49043f57c24a1b152259ccb0f"
+    },
+    "branding/us-spgi.png": {
+      "size": 503,
+      "sha256": "4e59199ffbfcb7483c19c1fedde7d0666a5dbacb8b559d82f460f4740046ea12"
+    },
+    "branding/us-stx.png": {
+      "size": 4500,
+      "sha256": "ac3e00dca8a8bda51b225a59bdae8bb6056932504e3babf17b649b11c6ea8edc"
+    },
+    "branding/us-syk.png": {
+      "size": 8815,
+      "sha256": "366d9bdff1c836dc5a695f7658d4827a3bc4615794e4b63cdc8b5111bb751dd8"
+    },
+    "branding/us-tmus.png": {
+      "size": 7347,
+      "sha256": "f8f1323997c887a228ed44e16d5173b2d8721a4b560dbe75f7db399487dec223"
+    },
+    "branding/us-tsm.png": {
+      "size": 4854,
+      "sha256": "6cd49a143283d7960e13a473a918aec5bd8a6c87463f156b8d0ae8c27aaa2b74"
+    },
+    "branding/us-tt.png": {
+      "size": 2820,
+      "sha256": "92a16279d95b12363283fe51dbb576c96c07ea5038d57b4ea4683d35d8759f09"
+    },
+    "branding/us-tte.png": {
+      "size": 9302,
+      "sha256": "b3d577dc7a2f44b550c57669aabd46d1e1e1eab9e8b0bfc11e9a0901fdee3ab7"
+    },
+    "branding/us-ubs.png": {
+      "size": 6117,
+      "sha256": "2007ab942ba362190d4947178ead6495f8826d3fd04d01d305b269e44b5b88bf"
+    },
+    "branding/us-unh.png": {
+      "size": 6501,
+      "sha256": "105eb985218d79164576af05d6a1acdff0f9192158433341c39b2b7aa8181db5"
+    },
+    "branding/us-ups.png": {
+      "size": 10616,
+      "sha256": "3fd8785971e3a467d86493a35863ed1805cfcee2c78b4c04d8027cfaf8ac9141"
+    },
+    "branding/us-v.png": {
+      "size": 1804,
+      "sha256": "ed4e08a91d2d18a0f50717622a21870732b78adf9562548cfe0b1d8d049d0f25"
+    },
+    "branding/us-wfc.png": {
+      "size": 4957,
+      "sha256": "735d17f035167c38e0280ba7474e2619bce8d09ae8051cfeaa06e01e802fa33c"
+    },
+    "branding/us-wm.png": {
+      "size": 6771,
+      "sha256": "59b3a569383105c5752a0ab007032030611527b102d8212852129bb4e32eb722"
+    },
+    "branding/us-wmt.png": {
+      "size": 6934,
+      "sha256": "e4b3640639466589807c286bb23d61a361bb30d456a7a0e31a05e162056f31e5"
+    },
+    "branding/us-xom.png": {
+      "size": 10355,
+      "sha256": "073ff72d09d81f21e10ccc7f2c3b6dd59d848c683c8e71be7b4a47303b9fde8a"
+    }
+  },
+  "key_id": "shixu-public-20261029",
+  "signature": "RYEGlbGlPNV5eS0EI+kA0Vo7KJ6J9W3I4xMyHjLxmOwJIgHljxd0O+5V5g4Pg5iRgym/2xEf5hK99R0yiu2IqIcOJ2xPfVOmGxqoClmtOaQ6MKg/8HxIDEKeqLEAp/Sgdg2KkgUa7RqlT7QLvXrWeyvYINLSOEbvatvfkEsMdJkDin0JwWF21BKq4bPXkT7lSBzvt6kUKVTI54lvVMrksdEGSeNXYlcS2d40hxlGgB+nxsU1wH2yLjd3bAaxYbjaMqPk28IARzRSCh0303GTfxqRjnGIkVwskKOeEagk8H59EQV90r7lzYCdiQKeyRvOnfMxFFOvDQLzmSNTkQY09VG7Ku6DFPOzmHu7ezTuknjZ0SvQzE0nV2yr8PLHXYXMO8sZulv6YYaGX6cBkpdyK4VEig38dNnW71pWxckmfupcnuNoxBDQ33eUfBnAYSq8mSkAHuS7asaXG3uMcMUfVs7RLzR+XP83qhbFhLYJq+IpW+SIXUSlR3JDsqYnDHlK"
+}
