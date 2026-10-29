@@ -1,13 +1,13 @@
 {
   "schema": 1,
   "app": "willance-event-calendar",
-  "version": "1.10.0",
+  "version": "1.11.0",
   "integrity": "rsa_sha256",
   "package": {
-    "path": "app-updates/event-calendar/releases/1.10.0.zip",
-    "size": 617298,
-    "sha256": "cbe5a83bd74144a9f0dc88c9a4684b905bd163c926e03bbecbd3ed75813022b2",
-    "url": "https://raw.githubusercontent.com/cf377695951/shixu-releases/main/updates/releases/1.10.0.zip"
+    "path": "app-updates/event-calendar/releases/1.11.0.zip",
+    "size": 681274,
+    "sha256": "245abcac57f4de23f7b8b30476099c95c3fdc4fc0261027b041367b353cd5b2b",
+    "url": "https://raw.githubusercontent.com/cf377695951/shixu-releases/main/updates/releases/1.11.0.zip"
   },
   "files": {
     "DATA_ACCURACY.md": {
@@ -23,8 +23,8 @@
       "sha256": "1828ae53971375f350245aedbac156add216eeca557a14321c70b8eb153ce106"
     },
     "README_WINDOWS.md": {
-      "size": 6649,
-      "sha256": "87f467a7fd37516db90c009e71f100197c324dde34db74741af3fa713207f9fe"
+      "size": 7562,
+      "sha256": "404a966a0f150e011b57b740739f5803a845975a81c519c1f1a9d1a0d9ec37dc"
     },
     "START_WINDOWS.cmd": {
       "size": 864,
@@ -35,8 +35,8 @@
       "sha256": "f9b89df00794813a424d4d44aa15f1325f83d47821686621e6b6d6c3b0f331c1"
     },
     "app.py": {
-      "size": 259075,
-      "sha256": "d320a7440f911713e690214dd329105b1e3ac714c0df52e37364c97edbde5eca"
+      "size": 276772,
+      "sha256": "b3ce21d94d81fcd1c5831895d8eccd9f82af70ec6eaf349f130a314201d611a3"
     },
     "branding/almanac-v18.json": {
       "size": 42852,
@@ -70,6 +70,10 @@
       "size": 8856,
       "sha256": "fde2c36c7657edd604dc5a60a2d3ecf26ea80927c9fa6d0f75065d9be7603d10"
     },
+    "branding/news-snapshot-v111.json": {
+      "size": 334219,
+      "sha256": "f1be9e7f7a38510e346aacc8925ea57d746b657b9e9449c47ce92ed932d31ca0"
+    },
     "branding/shixu-brand.json": {
       "size": 1218,
       "sha256": "29d8fd745dd04ee3170ab5e2ebb4d0204ab4db0fab78bde041f2453e85c457de"
@@ -92,7 +96,7 @@
     },
     "desktop/install.py": {
       "size": 11827,
-      "sha256": "6e0a0877f34ab7f4205c73422244d2c4f078b7a22b325aa78f218b4ca90d464e"
+      "sha256": "09aa0cc7a332e4531ef60c7ce5803c9860cfe30c42f1c7ba0053ca60344f7100"
     },
     "desktop/launch_hidden.py": {
       "size": 724,
@@ -100,7 +104,7 @@
     },
     "desktop/launcher.py": {
       "size": 30152,
-      "sha256": "88c38d4d72e37d649e57e936aa34ec90045c52853503a1fe1fda494fd4d3429d"
+      "sha256": "8c10fd6d2a61fc54c5d35353868d3279196a5c5baadfa9e18a30cbaa360c84f1"
     },
     "desktop/update_config.json": {
       "size": 1358,
@@ -159,27 +163,31 @@
       "sha256": "82eafaccf6a62ddad776343179613d1b627b11c18914cf8e2739c23e2dbe63fb"
     },
     "web/app.js": {
-      "size": 135027,
-      "sha256": "03bc3952532326e70977799c2d5627b3b98f160466590b992eed8da065e8b12e"
+      "size": 135604,
+      "sha256": "327adbc510ca8b39dead437337f1ec39fd1116f1ba5eef17ef53866cf8f46dbf"
     },
     "web/index.html": {
-      "size": 20434,
-      "sha256": "5cc8783916e52223b676dbb1f2f4e81ca952b5a4def9d16c784218d5a1dbbf02"
+      "size": 23111,
+      "sha256": "67805bd25f197b1a0f336b6051fa683462d2bab3b0f583a5de66100c1b9fd9f7"
+    },
+    "web/news.js": {
+      "size": 15482,
+      "sha256": "79a3e17815769557c50bd24cf822932317c18a0a43c454905ee499f0d8e630bd"
     },
     "web/perf_monitor.js": {
       "size": 7834,
       "sha256": "4d01e5c29e4c2fbf5a4867dcf9bf0886e6d06be79560d55b69b91f051c05368b"
     },
     "web/style.css": {
-      "size": 79588,
-      "sha256": "7b86dd87be5a3be47b74050e2cd08813d2474cf1f3efef4e01c1106a996bc409"
+      "size": 88937,
+      "sha256": "55b68be0714d8a9c58782c2d98d780d715f0e359cf3fe4293a59f4f08c2ca899"
     },
     "branding/update-base-v15.json": {
       "size": 14177,
       "sha256": "5bb2cfe5a7cf5ce134ccd9a032890a92730ea0a57d610342875d0575cbc03157"
     }
   },
-  "notes": "朋友版自动更新启用；免费官方数据、后台取数与来源核验改进。",
+  "notes": "新闻快讯三栏、12频道分类筛选、北京时间、主快讯实时接收与其他频道每分钟检查；免费官方数据核验。",
   "update_kind": "application_delta",
   "minimum_version": "1.4.0",
   "base_files": {
@@ -681,5 +689,5 @@
     }
   },
   "key_id": "shixu-public-20261029",
-  "signature": "RYEGlbGlPNV5eS0EI+kA0Vo7KJ6J9W3I4xMyHjLxmOwJIgHljxd0O+5V5g4Pg5iRgym/2xEf5hK99R0yiu2IqIcOJ2xPfVOmGxqoClmtOaQ6MKg/8HxIDEKeqLEAp/Sgdg2KkgUa7RqlT7QLvXrWeyvYINLSOEbvatvfkEsMdJkDin0JwWF21BKq4bPXkT7lSBzvt6kUKVTI54lvVMrksdEGSeNXYlcS2d40hxlGgB+nxsU1wH2yLjd3bAaxYbjaMqPk28IARzRSCh0303GTfxqRjnGIkVwskKOeEagk8H59EQV90r7lzYCdiQKeyRvOnfMxFFOvDQLzmSNTkQY09VG7Ku6DFPOzmHu7ezTuknjZ0SvQzE0nV2yr8PLHXYXMO8sZulv6YYaGX6cBkpdyK4VEig38dNnW71pWxckmfupcnuNoxBDQ33eUfBnAYSq8mSkAHuS7asaXG3uMcMUfVs7RLzR+XP83qhbFhLYJq+IpW+SIXUSlR3JDsqYnDHlK"
+  "signature": "VOwOSEFWQvPcjO7XQD+OZ718LNRSrwxcPCJ/BqLJ4r3RM1AjHy5MqI3g1gbY2jHR3Ad51RlvexqF2KXyPMnFUgk6XqaBHwo1OZUfUisz9z+vC4Wj8EAhBEQPY65hylBb8xbZTJ3wGmwoUV/ic9STDZ4JcaxoNQnF/zJv+fhBo4u4ZcU0U63GT29oXAGJIFbvSnrOYm8e2GWMVntCx7LP45/4f6HlQvWvNp24Hlisxe9QZwzy1ZMy7RLIjJvX/pTbWKfGoWm6qWRewyStt9TvEgTxOM6ppYYoe5adffk5agKVPcs+gaKI9tC59xj8/XyuPmPA5MaDVCV+pJGvrDQMoVv5RW7lc5HtQI2zVrNc9nZU8zh+q42Dfg3YkCVQtTAak2EHLwRVZ1Yw6TJpo8lPWqBpnh15627lHaOFLQdHIuieRvKJRS09FVtlWpL36CYqvytwFGphqRH65LCGzRW6wGRRg8bNb5+I0MOjbgVtAxEGQgQvNlMy7T7FOrT+RbsV"
 }
